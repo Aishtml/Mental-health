@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+header, footer {
+  background-color: teal;
+  padding: 4px;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+img {
+  width: 90%;
+  display: block;
+  margin-inline: auto;
+  padding-block: 20px;
+}
+
+span {
+  color: lightblue;
+  font-size: 2rem;
+}
+
+hr {
+  max-width: 50%;
+  margin-top: 20px;
+  margin-inline: auto;
+  background-color: grey;
+  padding: 1px;
+  border: none;
+  border-right-color: 1px;
+}
+
+ul {
+  margin-top: 20px;
+  max-width: 80%;
+  margin-inline: auto;
+  line-height: 25px;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul a {
+  color: grey;
+}
+
+.fa {
+  color: white;
+}
+.header--section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* .btn {
+  width: 100%;
+  display: none;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  padding: 20px;
+  font-size: 2rem;
+  transform-origin: top;
+  animation: open-animation 0.5s ease-in-out forwards;
+}
+
+.btn i {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.btn nav {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+} */
+
+.main {
+  max-width: 90%;
+  margin-top: 50px;
+  margin-inline: auto;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.main p {
+  margin-top: 20px;
+  font-weight: 400;
+  color: grey;
+  font-size: 1rem;
+  line-height: 21px;
+}
+
+#blog {
+  margin-top: 50px;
+  max-width: 80%;
+  margin-inline: auto;
+}
+
+#blog h2 {
+  margin: auto;
+  text-align: center;
+  color: lightblue;
+}
+
+.blog--post{
+  box-shadow: 0 0 5px 1px grey;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.blog--post p {
+  max-width: 90%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-inline: auto;
+  line-height: 25px;
+  color: grey;
+}
+
+.blog--post h2 {
+  text-align: center;
+  padding-top: 10px;
+  color: lightblue;
+}
+
+.blog--post a {
+  color: grey;
+}
+
+.about {
+  max-width: 90%;
+  margin-inline: auto;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.about p {
+  margin-top: 20px;
+  font-weight: 400;
+  color: grey;
+  font-size: 1rem;
+  line-height: 22px;
+}
+
+.about h2 {
+  margin-top: 20px;
+}
+
+.resource {
+  margin-inline: auto;
+  text-align: center;
+  margin-top: 50px; 
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+@keyframes open-animation {
+  0% {
+    transform: scaleY(0);
+  }
+  
+  80% {
+    transform: scaleY(1.2);
+  }
+  
+  100% {
+    transform: scaleY(1);
+  }
+}
